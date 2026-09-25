@@ -2,7 +2,7 @@ Diabetes Health Indicators Analysis
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,7 +14,7 @@ The analysis compares factors such as BMI, smoking, physical activity, general h
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -26,9 +26,9 @@ The target variable is `Diabetes\_binary`, where:
 
 
 
-\* `0` represents no diabetes
+* `0` represents no diabetes
 
-\* `1` represents prediabetes or diabetes
+* `1` represents prediabetes or diabetes
 
 
 
@@ -36,11 +36,11 @@ The dataset includes health and lifestyle indicators such as BMI, smoking, physi
 
 
 
-\## Project Process
+## Project Process
 
 
 
-\### 1. Extract
+### 1. Extract
 
 
 
@@ -48,7 +48,7 @@ I imported the original CSV dataset into a pandas DataFrame in Jupyter Notebook.
 
 
 
-\### 2. Transform
+### 2. Transform
 
 
 
@@ -56,15 +56,15 @@ I checked the structure and quality of the data by:
 
 
 
-\* Checking the number of rows and columns
+* Checking the number of rows and columns
 
-\* Checking for missing values
+* Checking for missing values
 
-\* Identifying duplicate records
+* Identifying duplicate records
 
-\* Removing duplicate records
+* Removing duplicate records
 
-\* Saving the cleaned data as a new CSV file
+* Saving the cleaned data as a new CSV file
 
 
 
@@ -72,7 +72,7 @@ After removing duplicates, the cleaned dataset contained 69,057 records.
 
 
 
-\### 3. Load and Analyze
+### 3. Load and Analyze
 
 
 
@@ -84,23 +84,23 @@ I then used SQL queries to:
 
 
 
-\* Confirm the number of records in the cleaned table
+* Confirm the number of records in the cleaned table
 
-\* Group respondents by diabetes status
+* Group respondents by diabetes status
 
-\* Calculate the average BMI for each group
+* Calculate the average BMI for each group
 
-\* Compare smoking rates
+* Compare smoking rates
 
-\* Compare physical activity rates
+* Compare physical activity rates
 
-\* Compare high blood pressure rates
+* Compare high blood pressure rates
 
-\* Compare general health and age categories
+* Compare general health and age categories
 
 
 
-\### 4. Visualize
+### 4. Visualize
 
 
 
@@ -108,29 +108,29 @@ I used Matplotlib to create charts comparing the selected health indicators betw
 
 
 
-\## Tools Used
+## Tools Used
 
 
 
-\* Python
+* Python
 
-\* pandas
+* pandas
 
-\* Matplotlib
+* Matplotlib
 
-\* Jupyter Notebook
+* Jupyter Notebook
 
-\* SQL
+* SQL
 
-\* MySQL
+* MySQL
 
-\* phpMyAdmin
+* phpMyAdmin
 
-\* XAMPP
+* XAMPP
 
 
 
-\## Main Findings
+## Main Findings
 
 
 
@@ -166,21 +166,21 @@ These findings show associations within the dataset and should not be interprete
 
 
 
-\## Project Files
+## Project Files
 
 
 
-\* `Diabetes\_Project\_ETL.ipynb` — contains the Python data cleaning, analysis, and visualizations
+* `Diabetes\_Project\_ETL.ipynb` — contains the Python data cleaning, analysis, and visualizations
 
-\* `diabetes\_analysis\_queries.sql` — contains the MySQL queries used to analyze the cleaned data
+* `diabetes\_analysis\_queries.sql` — contains the MySQL queries used to analyze the cleaned data
 
-\* `diabetes\_binary\_5050split\_health\_indicators\_BRFSS2015.csv` — original dataset used in the project
+* `diabetes\_binary\_5050split\_health\_indicators\_BRFSS2015.csv` — original dataset used in the project
 
-\* `README.md` — provides an overview of the project
+* `README.md` — provides an overview of the project
 
 
 
-\## How to Run the Project
+## How to Run the Project
 
 
 
@@ -198,7 +198,7 @@ These findings show associations within the dataset and should not be interprete
 
 
 
-\## Data Source
+## Data Source
 
 
 
